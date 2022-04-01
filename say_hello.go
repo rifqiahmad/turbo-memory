@@ -1,5 +1,5 @@
 package turbo_memory
 
-func SayHello(name string) string {
-	return "Hello " + name
+func SayHello(greating string, name string) string {
+	return greating + " " + name
 }
